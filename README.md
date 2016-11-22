@@ -34,7 +34,8 @@ Search and install 3 packages (paste it exactly like it is):
 
 #### USB drivers
  - OSX: [Install driver](tools/drivers/osx/osx-vcp-driver.zip?raw=true)
- - Windows: driver is build in
+ - Windows: driver is built in
+ - Linux: driver built in, but you might need to set access rights for the port the arduino is connected to (e.g. `sudo chmod a+rw /dev/ttyUSB0`)
 
 ### Yaas
 
